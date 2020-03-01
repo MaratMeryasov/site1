@@ -278,7 +278,7 @@ section h2 {
 }
 .mc_item_wrap {
 	margin-left: 30px;
-	width: 156px;
+	width: 160px;
 	display: inline-block;
 	text-align: center;
 } 
@@ -293,11 +293,52 @@ section h2 {
 	height: 85px;
 	width: 130px;
 	background-image: url(../img/cats_iconset.png);
-	margin: 10px auto;
+	margin: 15px auto 0px;
 }
 .mc_item_wrap:nth-child(1) span {
 	background-position: 9px 0;
 }
 .mc_item_wrap:nth-child(2) span {
-	background-position: 9px 0;
+	background-position: -161px 0;
+}
+.mc_item_wrap:nth-child(3) span {
+	background-position: -323px 0;
+}
+.mc_item_wrap:nth-child(4) span {
+	background-position: -495px 0;
+}
+.mc_item_wrap:nth-child(5) span {
+	background-position: -665px 0;
+}
+.mc_item_wrap:nth-child(6) span {
+	background-position: -830px 0;
+}
+.mc_item h4 {
+	font-family: "BebasBold";
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.mc_item a:hover h4,
+.mc_item_wrap.active h4 {
+	text-decoration: underline;
+}
+.mc_item_wrap.active,
+.mc_item_wrap:hover {
+	background-color: #2A2A2A;
+}
+.mc_toggle {
+	background-color: #212121;
+	position: relative;
+	height: 25px;
+	cursor: pointer;
+	background-image: url(../img/mc_ar.png);
+	background-repeat: no-repeat;
+	background-position: 72px 10px;
+}
+.mc_item_wrap.active .mc_toggle,
+.mc_item_wrap:hover .mc_toggle {
+	background-color: #353535;
+	background-position: -118px 10px;
 }
